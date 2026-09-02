@@ -3,7 +3,7 @@ import React from 'react'
 const Skills = () => {
   return (
     <div>
-        <h2 className='px-15 mt-5'><i className="ri-dashboard-horizontal-line text-3xl mr-1"></i> 
+        <h2 className='px-15 mb-3'><i className="ri-dashboard-horizontal-line text-3xl mr-1"></i> 
         <span className='text-3xl font-bold underline'>My Skills</span></h2>
         <div className='h-1/2 w-full px-15 py-5 grid grid-cols-4 gap-5 overflow-y-auto'>
             <div className='h-70 bg-white rounded-xl py-4 px-5 shadow-sm shadow-black'> 

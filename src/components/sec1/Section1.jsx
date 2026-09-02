@@ -4,7 +4,7 @@ import Hero from './Hero'
 
 const Section1 = () => {
   return (
-    <div className='h-2/3  w-full'>
+    <div className='h-[50vh] w-full'>
         <Nav />
         <Hero />
     </div>
