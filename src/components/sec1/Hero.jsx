@@ -4,7 +4,7 @@ import Right from './Right'
 
 const Hero = () => {
   return (
-    <div className='h-1/2 mt-4 w-full flex'>
+    <div className='h-auto mt-4 w-full flex items-center'>
         <Left />
         <Right />
     </div>
