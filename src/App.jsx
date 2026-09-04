@@ -6,7 +6,7 @@ import Skills from './components/Skills-sec/Skills'
 
 const App = () => {
   return (
-    <div className='h-screen w-full flex flex-col gap-10 overflow-hidden'>
+    <div className='h-screen w-full flex flex-col gap-10 overflow-auto'>
       <Section1 />
       <Skills />
     </div>
