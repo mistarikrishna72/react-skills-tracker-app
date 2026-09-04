@@ -2,11 +2,11 @@ import React from 'react'
 import Nav from './Nav'
 import Hero from './Hero'
 
-const Section1 = () => {
+const Section1 = ({ addSkillbtn }) => {
   return (
     <div className='h-1/2 w-full'>
         <Nav />
-        <Hero />
+        <Hero addSkillbtn={addSkillbtn}/>
     </div>
   )
 }
